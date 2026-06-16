@@ -46,7 +46,7 @@ job:
 |------|----------|-----------|------|
 | 1 | Pilates App (프랜차이즈 통합 관리 앱) | 3종 권한, 출결 관리, CRM, 관리자 웹, React Native, 다지점 확장형(SaaS analog), 3플랫폼 동시 출시 | ★★★★★ |
 | 2 | Harmony Link (돌봄시설 통합 관리) | 멀티테넌트 SaaS DB 설계, 보호자(학부모) 실시간 푸시 소통, RBAC 권한, 관리자 웹 | ★★★★★ |
-| 3 | Calendar Share (실시간 동기화 소셜 앱) | Firebase Realtime DB 실시간 동기화(위치 추적), QR 스캔, 7종 FCM 푸시 + 딥링크 | ★★★★☆ |
+| 3 | Connectin (근거리 위치 탐색 네트워킹 플랫폼) | BLE+GPS 실시간 위치 탐색, FCM 푸시, RBAC 관리자 패널, 3플랫폼, 확장형 마이크로서비스 | ★★★★☆ |
 
 ## 5. 최종 제안 요약
 
@@ -133,11 +133,11 @@ https://proposal-router.claude-ai-b27.workers.dev/proposal-soccer-club-commute-a
 - 유사점: SaaS 확장형 멀티테넌트 DB 설계, 보호자(학부모) 실시간 푸시, 권한별 접근 제어, 관리자 웹
 - 기술 스택: Flutter, NestJS, Next.js, AWS, Firebase FCM
 
-▶ 실시간 동기화 소셜 앱 (QR·푸시·Firebase RTDB) (모바일 앱)
-- 프로젝트 유형: 크로스플랫폼 앱 / 실시간 동기화
-- 핵심 기능: Firebase Realtime DB 실시간 동기화, QR 코드 생성/스캔, 7종 FCM 푸시 + 딥링크
-- 유사점: 실시간 위치 동기화(Firebase Realtime DB), 차량 내 QR 출결, 탑승·하차·도착 FCM 푸시 흐름
-- 기술 스택: Flutter, Firebase RTDB, FCM, QR 스캔
+▶ 근거리 위치 탐색 네트워킹 플랫폼 (BLE·GPS·실시간) (3개월)
+- 프로젝트 유형: B2B 네트워킹 / SaaS / 크로스플랫폼
+- 핵심 기능: BLE+GPS 이중 모드 근거리 실시간 위치 탐색, FCM 푸시·실시간 메시징, RBAC 관리자 패널, 3플랫폼(iOS·Android·Web)
+- 유사점: GPS 기반 실시간 위치 송신·탐색, FCM 푸시, 관리자 웹(RBAC·사용자 관리), 3플랫폼 동시 지원, 확장형 마이크로서비스
+- 기술 스택: Flutter, Next.js/React, Express, BLE/GPS, FCM
 
 ---
 
@@ -167,4 +167,4 @@ https://proposal-router.claude-ai-b27.workers.dev/proposal-soccer-club-commute-a
 ### 관련 포트폴리오 추천
 1. 프랜차이즈 통합 관리 앱 — 3권한·출결·CRM·관리자 웹·React Native·다지점 확장
 2. 돌봄시설 통합 관리 플랫폼 — 멀티테넌트 SaaS DB·보호자 실시간 푸시·RBAC
-3. 실시간 동기화 소셜 앱 — Firebase RTDB 실시간 동기화·QR·FCM 푸시
+3. 근거리 위치 탐색 네트워킹 플랫폼 — BLE+GPS 실시간 위치 탐색·FCM 푸시·RBAC 관리자 패널
